@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-toggler-icon {
+    background-image: url("Assets/Images/Logo/logo.png") !important;
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+$orangeColor: #d2830a;
+@font-face {
+    font-family: imp;
+    src: url("./Assets/Fonts/impact.ttf");
+}
+@font-face {
+    font-family: poppinsMed;
+    src: url("Assets/Fonts/Poppins-Regular.ttf");
+}
+.poppins {
+    font-family: poppins;
+}
+.orange {
+    color: $orangeColor;
+}
+.imp {
+    font-family: imp;
+    color: white;
+}
+.custom-btn {
+    border: 1px solid $orangeColor !important;
+    &:hover {
+        background-color: $orangeColor !important;
+    }
+}
+.home {
+    min-width: 100%;
+}
+.posters {
+    min-width: 100%;
+    height: 100vh;
+}
+.navbar-container {
+    position: absolute;
+    min-width: 100%;
+    z-index: 10;
+}
+.nav-links {
+    min-width: 100%;
+}
+.links-nav {
+    font-family: imp;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.poster {
+    position: relative;
+    min-width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.Lewis {
+    max-width: 450px !important;
+    height: 100vh;
+    background-image: url("Assets/Images/Lewis.png");
+    background-repeat: no-repeat;
+}
+.top-text-poster{
+    font-size: 20px;
+}
+.bottom-text-poster{
+    font-size: 25px;
+}
+.lewis-name {
+    font-size: 84px;
+}
+.tyson-name {
+    font-size: 76px;
+}
+.Tyson {
+    max-width: 400px !important;
+    height: 100vh;
+    background-image: url("Assets/Images/Tyson.png");
+    background-repeat: no-repeat;
+}
+.last-poster {
+    font-size: 25px;
+}
+.poster-m {
+    display: none;
+}
+
+.content {
+    min-width: 100%;
+    height: 500px;
+    background-color:black;
+}
+@media only screen and (max-width: 768px) { 
+    .brand {
+        display: none;
+    }
+    .navbar-color {
+        background-color: black;
+    }
+    .poster {
+        display: none;
+    }
+.poster-m {
+    min-width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: block;
+    flex-direction: column;
+}
+.poster-img {
+    background-position-y: 2rem;
+    background-image: url("./Assets/Images/poster-m.png");
+    height: 100vh;
+    min-width: 100%;
+    background-position: center;
+}
+.top-text-poster {
+ font-size: 14px;
+}
+.lewis-name {
+    font-size: 60px;
+}
+.tyson-name {
+    font-size: 54px;
+}
+.bottom-text-poster {
+font-size: 18px;
+}
+.last-poster {
+    font-size: 18px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .navbar-color {
+        background-color: black;
+    }
+
+    .Lewis {
+        width: 350px !important;
+        background-size: contain;
+        background-position-y: 70px;
+    }
+    .Tyson {
+        width: 350px !important;
+        background-size: contain;
+        background-position-y: 70px;
+    }
+    .poster-center {
+        padding-top: 75px;
+    }
+    .lewis-name {
+        font-size: 50px;
+    }
+    .tyson-name {
+        font-size: 45px;
+    }
+    .top-text-poster {
+    font-size: 12px;
+    }
+    .bottom-text-poster {
+        font-size: 15px;
+    }
+    .last-poster {
+        font-size: 15px;
+    }
+
+}
