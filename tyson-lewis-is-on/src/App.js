@@ -19,11 +19,6 @@ function App() {
       <Route path="/PPV" element={<PPV/>}></Route>
       <Route path="/team-tyson" element={<TeamTyson/>}></Route>
       <Route path="/team-lewis" element={<TeamLewis/>}></Route>
-      
-      {/*
-      <Route path='/projects' element={}></Route>
-      <Route path='/contacts' element={}></Route>
-      <Route path='/red-dead-redemption' element={}></Route>*/}
       </Routes>
 
     <Footer></Footer>
