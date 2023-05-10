@@ -20,11 +20,11 @@ const NavBar = () => {
           <Navbar.Toggle onClick={ChangeNavBG} aria-controls="basic-navbar-nav" className='p-0 m-0'/>
           <Navbar.Collapse id="basic-navbar-nav" className='p-0 m-0'>
             <Nav className="me-auto nav-links d-flex justify-content-center  align-items-center">
-              <NavLink className="links-nav" to="#home">Home</NavLink>
-              <NavLink className="links-nav" to="#link">Team Tyson</NavLink>
+              <NavLink className="links-nav" to="/">Home</NavLink>
+              <NavLink className="links-nav" to="/team-tyson">Team Tyson</NavLink>
               <Navbar.Brand href="#home" className='brand'><img style={{height:"100px", width:"100px"}} src={logo} alt='navbar logo'></img></Navbar.Brand>
-              <NavLink className="links-nav"  to="#">Team Lewis</NavLink>
-              <NavLink className="links-nav" to="#">PPV</NavLink>
+              <NavLink className="links-nav"  to="/team-lewis">Team Lewis</NavLink>
+              <NavLink className="links-nav" to="/PPV">PPV</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
